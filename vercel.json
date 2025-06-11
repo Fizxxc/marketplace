@@ -14,4 +14,3 @@
     { "src": "/notification", "dest": "/api/notification.php" }
   ]
 }
-
