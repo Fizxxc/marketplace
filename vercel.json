@@ -5,13 +5,13 @@
     }
   },
   "routes": [
-    { "src": "/", "dest": "/api/login.php" },
+    { "src": "/", "dest": "/public/index.html" },
     { "src": "/login", "dest": "/api/login.php" },
     { "src": "/register", "dest": "/api/register.php" },
     { "src": "/home", "dest": "/api/home.php" },
-    { "src": "/about", "dest": "/api/about.php" },
-    { "src": "/checkout", "dest": "/api/checkout.php" },
     { "src": "/firebase", "dest": "/api/firebase.php" },
+    { "src": "/checkout", "dest": "/api/checkout.php" },
     { "src": "/notification", "dest": "/api/notification.php" }
   ]
 }
+
